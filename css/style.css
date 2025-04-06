@@ -1,0 +1,210 @@
+/* #region common*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+/* #endregion */
+
+/* #region container*/
+.container {
+  max-width: 290px;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 510px) {
+  .container {
+    max-width: 510px;
+    padding: 0 33px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 165px;
+  }
+}
+/* #endregion container*/
+
+/* #region header*/
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 11px;
+  gap: 5px;
+}
+.header-icon {
+  border-radius: 100%;
+  stroke-width: 1px;
+  stroke: #333;
+  fill: #fff;
+}
+.rounded-rectangle {
+  width: 320px;
+  height: 1px;
+  background: #ddd;
+}
+.header-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333;
+}
+
+.icon-pack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 15px 15px;
+}
+.icons-container {
+  display: flex;
+  gap: 30px;
+}
+
+.header-icon-menu {
+  fill: #4c5866;
+}
+.search-icon {
+  stroke-width: 2px;
+  stroke: #4c5866;
+  fill: #fff;
+}
+
+.login-icon {
+  stroke-width: 2px;
+  stroke: #4c5866;
+  fill: #fff;
+}
+
+/* #endregion header*/
+
+/* #region hero*/
+
+.hero-section {
+  background-color: #fff;
+  padding-top: 49px;
+  padding-bottom: 49px;
+  width: 320px;
+  height: 328px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  width: 221px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  color: #4c5866;
+}
+
+.hero-text {
+  width: 289px;
+  height: 84px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #85859b;
+  padding-top: 15px;
+}
+
+.hero-button {
+  font-weight: 400;
+  font-size: 18px;
+  color: #7875fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid #7875fe;
+  padding: 20px 50px;
+  width: 144px;
+  height: 50px;
+}
+
+.hero-btn-cont {
+  margin-top: 21px;
+}
+
+/* #endregion hero*/
+
+/* #region result*/
+.result-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.result-rectangle {
+  width: 290px;
+  height: 1px;
+  background: #c0c0c0;
+}
+
+.result-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-top: 20px;
+}
+
+.result-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #85859b;
+}
+.result-item-first {
+  width: 130px;
+  height: 96px;
+  background-image: url('/images/bg/buissnes-card1.jpg');
+  margin-bottom: 60px;
+}
+
+.result-item-second {
+  width: 130px;
+  height: 96px;
+  background-image: url('/images/bg/buissnes-card2.jpg');
+  margin-bottom: 60px;
+}
+.result-item-third {
+  width: 130px;
+  height: 96px;
+  background-image: url('/images/bg/buissnes-card3.jpg');
+  margin-bottom: 60px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
